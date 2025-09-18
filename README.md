@@ -1,11 +1,18 @@
-Got it 👍 Let’s create a clean, professional README.md for your Tej’s Portfolio project.
-This will make your GitHub repo look great and tell visitors what the project is about.
+Perfect 👍 Tej! You already have a solid README. Adding badges will make it look more professional and visually appealing at the top. Here’s an upgraded version of your README with all the important badges including the MIT license:
 
 ⸻
 
-📄 Suggested README.md
 
 # 🌐 Tej's Portfolio
+
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)  
+![React](https://img.shields.io/badge/React-19.0-blue?logo=react)  
+![Vite](https://img.shields.io/badge/Vite-7.0-646CFF?logo=vite&logoColor=white)  
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC?logo=tailwind-css&logoColor=white)  
+![Framer Motion](https://img.shields.io/badge/Framer%20Motion-12.0-ff69b4?logo=framer&logoColor=white)  
+![GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-black?logo=github)  
+
+---
 
 Welcome to my personal portfolio website! 🚀  
 This project showcases my skills, projects, and ways to get in touch with me.  
@@ -25,7 +32,7 @@ Built with **React + Vite + TailwindCSS + Framer Motion**, and deployed using **
 
 ## 📷 Preview
 ![Portfolio Preview](./preview.png)  
-*(Add a screenshot of your site here — replace `preview.png` with your actual image)*
+*(Replace `preview.png` with a screenshot of your site)*
 
 ---
 
@@ -76,6 +83,10 @@ npm run build
 
 ---
 
-👉 You can copy this into your repo’s **`README.md`** file.  
-
-Do you want me to also **add badges** (like React, Vite, Tailwind, GitHub Pages) at the top for a more professional look?
+✅ Steps to use this:  
+1. Replace your current `README.md` with this content.  
+2. Save it, then commit & push:  
+```bash
+git add README.md
+git commit -m "Update README with badges"
+git push origin main
