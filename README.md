@@ -1,7 +1,3 @@
-Perfect 👍 Tej! You already have a solid README. Adding badges will make it look more professional and visually appealing at the top. Here’s an upgraded version of your README with all the important badges including the MIT license:
-
-⸻
-
 
 # 🌐 Tej's Portfolio
 
