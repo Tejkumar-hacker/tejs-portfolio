@@ -6,5 +6,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [
     tailwindcss(),
-    react()],
+    react()
+  ],
+  base: "/tejs-portfolio/", // 👈 must match your repo name exactly
 })

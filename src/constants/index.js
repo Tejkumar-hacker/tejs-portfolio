@@ -33,7 +33,8 @@ export const PROJECTS = [
     image: project1,
     description:
       "A personal portfolio website showcasing my projects, skills, and contact information with a modern responsive design.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "TailwindCSS"],
+    url: "https://tejkumar-hacker.github.io/tejs-portfolio/"
   },
   {
     title: "Tic-Tac-Toe Game",
@@ -41,6 +42,7 @@ export const PROJECTS = [
     description:
       "A classic two-player browser-based game with responsive design and interactive gameplay.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://tejkumar-hacker.github.io/Tic-Tac-Toe/"
   },
   {
     title: "Todo App",
@@ -48,6 +50,7 @@ export const PROJECTS = [
     description:
       "A functional to-do list application for daily productivity management with task add and delete features.",
     technologies: ["HTML", "CSS", "JavaScript"],
+    url: "https://tejkumar-hacker.github.io/todo-app/"
   },
   {
     title: "Task List App",
@@ -55,6 +58,7 @@ export const PROJECTS = [
     description:
       "A responsive task management app supporting add, delete, and persistent storage using localStorage.",
     technologies: ["HTML5", "CSS3", "JavaScript (ES6+)"],
+    url: "https://tejkumar-hacker.github.io/task-list/"
   },
 ];
 

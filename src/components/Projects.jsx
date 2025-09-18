@@ -15,7 +15,7 @@ const Projects = () => {
       <div>
         {PROJECTS.map((project) => (
           <div
-            key={project.id || project.title} // use unique id or title
+            key={project.id || project.title}
             className="mb-8 flex flex-wrap lg:justify-center"
           >
             <motion.div
@@ -38,12 +38,23 @@ const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full max-w-xl lg:w-3/4"
             >
-              <h3 className="mb-2 font-semibold text-2xl">{project.title}</h3>
+              {/* Make the project title a clickable link */}
+              <h3 className="mb-2 font-semibold text-2xl">
+                <a
+                  href={project.url}        // LIVE project URL
+                  target="_blank"           // open in new tab
+                  rel="noopener noreferrer" // security best practice
+                  className="text-cyan-400 hover:underline"
+                >
+                  {project.title}
+                </a>
+              </h3>
+
               <p className="mb-4 text-stone-400">{project.description}</p>
               {project.technologies.map((tech, techIndex) => (
                 <span
                   className="mr-2 rounded bg-stone-900 p-2 text-sm font-medium text-stone-300"
-                  key={`${project.id || project.title}-${techIndex}`} // unique key per tech
+                  key={`${project.id || project.title}-${techIndex}`}
                 >
                   {tech}
                 </span>
