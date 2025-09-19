@@ -9,7 +9,7 @@ const Navbar = () => {
           {/* Increased size here */}
          <img 
             src={logo} 
-            className="mx-2 w-50 h-auto"  // <-- Tailwind (w-20 = 80px wide, h-auto keeps aspect ratio)
+            className="mx-2 w-40 h-auto"  // <-- Tailwind (w-20 = 80px wide, h-auto keeps aspect ratio)
             alt="Logo" 
           />
 
